@@ -1,4 +1,10 @@
 library(shiny)
+library(bslib)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(purrr)
+library(viridis)
 
 # ------------------ Helpers for SWIPPE (same as before) ------------------
 sigma_y_turner <- function(X, stab) {
@@ -573,5 +579,6 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
 
 
