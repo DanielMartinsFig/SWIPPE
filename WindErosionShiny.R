@@ -1,4 +1,3 @@
-```r
 library(shiny)
 
 # ------------------ Helpers for SWIPPE (same as before) ------------------
@@ -574,4 +573,5 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
 
