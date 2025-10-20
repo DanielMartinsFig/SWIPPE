@@ -579,11 +579,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
-Sys.setenv(RSCONNECT_QUARTO = "0")
-rsconnect::writeManifest(
-  appDir = ".",
-  appPrimaryDoc = "WindErosionShiny.R",
-  contentCategory = "shiny"
-)
-
