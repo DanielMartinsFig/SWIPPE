@@ -5,7 +5,7 @@
     "entrypoint": "WindErosionShiny.R",
     "primary_app_file": "WindErosionShiny.R",
     "platform": "R",
-    "r_version": "4.1.1",
+    "r_version": "4.5.1",
     "title": "SWIPPE - Wind erosion and particle-phase pesticide model",
     "description": "Shiny application implementing the SWIPPE wind erosion and pesticide dispersion model with steady and temporal plume visualizations.",
     "created": "2025-10-20T00:00:00Z"
@@ -24,4 +24,5 @@
     "WindErosionShiny.R": { "checksum": "sha256-PLACEHOLDER" }
   }
 }
+
 
