@@ -1,6 +1,3 @@
-setwd("O:/DGK/IRAS/EEPI/Projects/SPRINT-H2020/opensourceModel (in the works)/SWIPPE")
-# app.R
-# install.packages(c("shiny","bslib","dplyr","ggplot2","scales","purrr","viridis"))
 library(shiny)
 library(bslib)
 library(dplyr)
@@ -589,3 +586,4 @@ rsconnect::writeManifest(
   appPrimaryDoc = "WindErosionShiny.R",
   contentCategory = "shiny"
 )
+
