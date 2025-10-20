@@ -6,7 +6,7 @@
     "entrypoint": "app.R",
     "primary_html": null,
     "primary_app_file": "app.R",
-    "r_version": "4.4.1",
+    "r_version": "4.5.1",
     "platform": "R",
     "title": "SWIPPE — Wind erosion and particle-phase pesticide model",
     "description": "Shiny application implementing the SWIPPE wind erosion and pesticide dispersion model with steady and temporal plume visualizations.",
@@ -59,4 +59,5 @@
       "checksum": "sha256-CHANGE_ME"
     }
   }
+
 }
